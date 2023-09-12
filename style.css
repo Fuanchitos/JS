@@ -1,0 +1,85 @@
+/* Estilo para el contenedor de la tarjeta */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Familia de fuentes */
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; /* Cuatro columnas */
+  gap: 4px;
+  background-color: #94e7ff
+
+
+  ;
+  padding: 40px;
+}
+
+.card {
+  border: 2px solid #000000;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #5ccda7;
+  border-radius: 4%;
+}
+/* Estilo para la información de la tarjeta */
+.card-info {
+  background-color: rgba(223, 243, 243, 0.5); /* Color de fondo con transparencia */
+  padding: 15px; /* Espaciado interno */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sutil sombra */
+  text-align: left; /* Texto centrado */
+  color: #0b0b0b; /* Color de texto */
+  margin-top: 15px;
+  align-items: center;
+  
+}
+
+/* Estilo para la imagen de avatar */
+.card-avatar {
+  
+  width: 150px;
+  height: 150px;
+  border-radius: 70%;
+  margin-left: 23%;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2); /* Borde transparente */
+  padding: 0px;
+}
+
+.card-name{
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.card-personainfo{
+  text-align: left;
+  padding: 1px;
+}
+
+.card-id{
+  text-align: center;
+  padding: 10px;
+  font-size: 25px;
+}
+
+
+/* Estilo para los elementos de información dentro de la tarjeta */
+
+.title {
+  font-size: 46px; /* Tamaño de fuente */
+  text-align: center;
+  background-color: #026842; /* Color de fondo */
+  padding: 10px; /* Espaciado interno */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Familia de fuentes */
+  color: #f8de7e
+  ; /* Color del texto */
+  border-radius: 5px; /* Bordes redondeados */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+}
+
+
